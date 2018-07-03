@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Raghu Betina".freeze]
   s.date = "2018-07-03"
-  s.description = "TODO: longer description of your gem".freeze
+  s.description = File.open("README.md").read.freeze
   s.email = "raghu@firstdraft.com".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/raghubetina/alias_has_many".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "2.6.14.1".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.summary = "Aliases ActiveRecord's `has_many` as `direct` and `indirect`.".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
@@ -60,4 +60,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])
   end
 end
-
