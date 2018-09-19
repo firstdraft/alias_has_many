@@ -22,8 +22,8 @@ Juwelier::Tasks.new do |gem|
   gem.name = "alias_has_many"
   gem.homepage = "http://github.com/raghubetina/alias_has_many"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{one-line summary of your gem}
+  gem.description = %Q{longer description of your gem}
   gem.email = "raghu@firstdraft.com"
   gem.authors = ["Raghu Betina"]
   gem.version = s_version
